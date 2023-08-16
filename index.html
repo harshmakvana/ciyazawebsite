@@ -1,0 +1,455 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tailwind Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+
+<body class="font-nunito">
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-white z-10">
+            <div class="container max-auto flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-16" src="img/favicon.png" alt="">
+                    <span class="text-4xl font-bold text-indigo-700 hover:text-yellow-700">CIYAZA</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                    <li class="hover:text-yellow-700">
+                        <a id="hLink" href="#" class="">Home</a>
+                    </li>
+                    <li class="hover:text-yellow-700">
+                        <a id="hLink" href="#collaction">Collaction</a>
+                    </li>
+                    <li class="hover:text-yellow-700">
+                        <a id="hLink" href="#Service">Services</a>
+                    </li>
+                    <li class="hover:text-yellow-700">
+                        <a id="hLink" href="#about" class="">About Us </a>
+                    </li>
+                    <li class="hover:text-yellow-700">
+                        <a id="hLink" href="#contact">Contact Us </a>
+                    </li>
+                </ul>
+                <img src="" alt="">
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu"
+                    class="hidden bg-yellow-500 absolute left-0 top-0 w-full p-10 rounded-3xl space-y-10 text-black text-center">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#collaction">Collaction</a>
+                    </li>
+                    <li>
+                        <a href="#Service">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us </a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+
+
+       <!-- home page -->
+        <!-- image -->
+        <img class="w-full h-auto bg-cover bg-center" src="img/123.jpg" alt="">
+        <!-- texts -->
+        <div
+            class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:l48 xl:text-7xl font-bold">
+            <span class="text-red-500">CIYAZA</span>
+            <p class="text-yellow-800">ROSE GOLD</p>
+        </div>
+    </div>
+
+
+    <!-- collaction page  -->
+    <div id="collaction" class="bg-white sm:py-8">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+
+            <div class="flex flex-col gap-1 items-center">
+                <h1 class="text-5xl text-pink-800 font-bold mt-20">COLLACTION</h1>
+                <p class="w-1/2 text-center text-red-900 m-2 py-2">
+                    my approach to website design us to create a website that starengthens your company's barand while
+                    ensuring ease of use and simplicity for your audience.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 py-8 ">
+                <!-- image - start -->
+                <a class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="img/Simple Rose gold Box Necklace with earrings.jpeg" loading="lazy"
+                        alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white  md:ml-5 md:text-lg">PENDENT</span>
+                </a>
+                <!-- image - end -->
+                <a class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="img/daimond Pendant.jpg" loading="lazy" alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">NECKLACE</span>
+                </a>
+
+                <a class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="img/When You Can't Say It With A Flower, Say It With A Ring.jpg" loading="lazy"
+                        alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">CNC RING</span>
+                </a>
+                <a class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="img/Handcrafted and Ethical Engagement Rings by S_ Kind & Co_.jpeg" loading="lazy"
+                        alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">DAIMOND
+                        RING</span>
+                </a>
+
+                <!-- image - start -->
+                <a class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="img/Contemporary Wedding at Somerley House full of Ombre Pink.jpeg" loading="lazy"
+                        alt="Photo by Lorenzo Herrera"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">LADIES
+                        RING</span>
+                </a>
+                <!-- image - end -->
+                <!-- image - end -->
+                <a class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <img src="img/Pave Amalfi Huggies- Gold.jpeg" loading="lazy" alt="Photo by Minh Pham"
+                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                    <div
+                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                    </div>
+
+                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">EARRINGS</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Services  pages    -->
+    <div id="Service">
+        <div class="container mx-auto bg-white">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-5xl text-yellow-600 font-bold mt-20">SERVICES</h1>
+                <p class="w-2/3 text-center text-gray-400">
+                    The aim with this piece was to demonstrated the very latest in technological innovation in the
+                    jewellery industry, to create an accomplished and technical piece that could not be made
+                    traditionally, a pair of earrings that are exceptionally light, strong and colourful. Put simply a
+                    piece that couldn’t be made 10 years ago.
+                </p>
+            </div>
+            <!-- bottom -->
+            <div class="p-4 sm:p-0 flex flex-wrap">
+                <!-- design -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-950 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg">DESIGN</h1>
+                    <p>We provide the best Quality of products to you.We are always here to help our lovely customers.We
+                        ship our products anywhere with more secure.</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- RPT -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg group-hover:first-letter:text-white-500">RPT</h1>
+                    <p class="group-hover: text-white-500"> Once the order is precaused it is forwarded to production
+                        team. All necessary raw materials, diamonds, gemstones are selected for each other..</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- waxing -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  group-hover:text-white">WAXING</h1>
+                    <p class="group-hover: text-white-500 ">The production process designs in the wax department. Each
+                        and every jewellery design has its own rubber model for making for making replica.</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- casting -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-0 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  ">CASTING</h1>
+                    <p class="group-hover: text-white-500"> The wax melts & desired metal is poured into the cylinder in
+                        the liquid form when the metal is cooled down the metal tree is taken out..</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- filling -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  group-hover:text-white- 500">FILLING</h1>
+                    <p class="group-hover: text-white-500">It is measured to confirm that it is of the correct length &
+                        the number of stones is correctly based on the order.</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- polish -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  group-hover:text-white- 500">POLISH</h1>
+                    <p class="group-hover: text-white-500">The soldered piece is not cleaned & polished and has a
+                        quality check.</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- setting -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  group-hover:text-white- 500 ">SETTING</h1>
+                    <p class="group-hover: text-white-500 ">At the diamond assorting office of Rasiklal and Sons,
+                        professional diamond assorting personnel sort and grade the stones on the basis of colour,
+                        clarity, shape and size, in accordance with stringent pre-defined standards.</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- rhodiam -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  group-hover:text-white- 500">RHODIAM</h1>
+                    <p class="group-hover: text-white-500">This is the single most important process in manufacturing,
+                        as even a small lapse in quality will magnify itself in every consecutive stage Each model maker
+                        meticulously designs masterpiece in itself .</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+                <!-- laser cuting -->
+                <div
+                    class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:bg-yellow-300 hover:text-indigo-900 duration-1000">
+                    <img class="w-10" src="img/favicon.png" alt="">
+                    <h1 class="font-medium text-lg  group-hover:text-white- 500">Laser Cuting</h1>
+                    <p class="group-hover: text-white-500">Robin’s unique artistic style and reputation for perfection
+                        has gained him the trust of collectors worldwide to handle rare and important cuting..</p>
+                    <p class="text-indigo-600 font-semibold text-sm" href="">Read More</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About page -->
+    <div id="about" class="px-10 ">
+        <h1 class="text-yellow-700 text-center font-bold text-5xl pt-20">ABOUT </h1>
+        <div class="container mx-auto py-10 flex flex-col-reverse lg:flex-row items-center gap-20">
+            
+
+            <!-- right -->
+            <div class="my-auto flex flex-col gap-2 pl-20  ">
+                <h1 class="text-3xl font-medium">OWR COMPANY</h1>
+                <br>
+                <p class="text--black">
+                    The company is having its own production facility in Surat city with finest
+                    infrastructure suitable for qualitative production of Ciyaza 18K Rose Gold & 22K Yellow
+                    Jewellery with qualitative production. The company is having well experienced promoter's as well
+                    as highly experienced staff with minimum employee turnover ratio. The company is holding Design
+                    Portfolio of more than 40000 Designs due to constant research and development with company's
+                    special PD team. The speciality and Inspiration behind jewellery is contemporary Fashion
+                    Jewellery and Sophisticated style statements that makes Ciyaza popular among the youngsters of
+                    the national's as well as international's too
+                </p>
+            </div>
+            <!-- left -->
+            <div>
+                <img src="" alt="" class="w-1/4 h-1/4 absolute top-0 left-0">
+                <div class="w-96 rounded-full overflow-hidden">
+                    <img class="w-auto h-96" src="img/Parth.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About page -->
+    <div id="about" class="px-10 ">
+        <div class="container mx-auto py-10 flex flex-col-reverse lg:flex-row items-center gap-20">
+            <!-- left -->
+            <div>
+                <img src="" alt="" class="w-1/4 h-1/4 absolute top-0 left-0">
+                <div class="w-96  h-full rounded-full overflow-hidden">
+                    <img class="w-auto" src="img/amindirector.jpg " alt="">
+                </div>
+            </div>
+            <!-- right -->
+            <div class="my-auto flex flex-col gap-2 pr-40   ">
+
+                <h1 class="text-3xl font-medium">Mr. Vipul Bhuva(MD)</h1>
+                <br>
+                <!-- <h1 class="text-3xl font-medium">Better Experience</h1> -->
+                <p class="text--black">
+                    Mr. Vipul Bhuva is MD & CEO of Parth ornaments Pvt Ltd, He is a Commerce graduate and having 17
+                    (seventeen) years of experience in jewellery field and one of the pioneer of the organization, His
+                    excellent management skill is reflecting in the growth of company in a very short period of time, he
+                    is believing in innovation in a context of product, design, process and in a test of jewellery with
+                    the class fiishing.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--  Contact Page -->
+    <div id="contact">
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-yellow-600 font-bold text-5xl mt-20">CONTACT</h1>
+                <h1 class="text-3xl">Have a Question?</h1>
+                <p class="w-1/2 text-center text-gray-600">
+                    Do You Have An Idea? Let's Discuss It And See What We Can Do Together.
+                </p>
+            </div>
+            <!-- bottom -->
+            <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-black rounded-sm" type="text" placeholder="Name surname">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-black rounded-sm" type="email" placeholder="Email">
+                <textarea class="p-2 w-full md:w-1/2 ring-1 ring-black rounded-sm" cols="30" rows="10"
+                    placeholder="Message..."></textarea>
+                <button
+                    class="w-1/2 bg-yellow-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+
+    <!--Footer  -->
+
+    <footer>
+        <div class="p-10 bg-black text-gray-200">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-l md:grid-col-2 lg:grid-cols-4 gap-2">
+                    <div class="mb-5">
+                        <h4 class="text-2xl pb-4">CIYAZA</h4>
+                        <p class="text-white-500">
+                            "PARTH ORNAMENTS PVT,"<br>
+                            Behind Bhavani Temple,<br>
+                            Matavadi,L.H ROAD, Varachha. <br>
+                            Surat-395006 <br>
+                            (Gujarat) India. <br>
+                            <strong class="white"><i class="fa-solid fa-phone "></i></strong> +91 903 312 3999 <br>
+                            <strong><i class="fa-regular fa-envelope"></i></strong> Customer.care@ciyaza.com <br>
+                        </p>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="text-2xl pb-4">Get Help</h4>
+                        <ul class="text-white">
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> Home</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#collaction"
+                                    class="hover:text-yellow-500"> Collaction</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#Service"
+                                    class="hover:text-yellow-500"> Service</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#about"
+                                    class="hover:text-yellow-500"> About</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#contact"
+                                    class="hover:text-yellow-500"> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class=" text-2xl pb-4">Our Products</h4>
+                        <ul class="text-white">
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> Necklace</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> Pendant</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> Chain</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> CNC Ring</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> earrings</a></li>
+                            <li class="pb-4"><i class="fa-solid fa-chevron-right"></i><a href="#"
+                                    class="hover:text-yellow-500"> Ladies ring</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="pb-2">
+                            © 2018 parthornamens.All Rights Reserved.</h4>
+                        <p class="text-gray-300 pb-2">Thank You For Your Support, We've reached 243542visitors.</p> <br>
+                        <div class="text-xl text-black mb-2">
+                            <a href="#"
+                                class="w-10 text-center rounded-full bg-white hover:bg-black hover:text-white mx-l inline-block pt-1 pb-1"><i
+                                    class="fa-brands fa fa-twitter"></i></a>
+                            <a href="#"
+                                class="w-10 text-center rounded-full bg-white hover:bg-black hover:text-white mx-l inline-block pt-1 pb-1"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#"
+                                class="w-10 text-center rounded-full bg-white hover:bg-black hover:text-white mx-l inline-block pt-1 pb-1"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"
+                                class="w-10 text-center rounded-full bg-white hover:bg-black hover:text-white mx-l inline-block pt-1 pb-1"><i
+                                    class="fa-brands fa-skype"></i></a>
+    <a href="#"
+                                class="w-10 text-center rounded-full bg-white hover:bg-black hover:text-white mx-l inline-block pt-1 pb-1"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+    class="hidden fixed z-90 bottom-8 right-8 border-0 w-14 h-14 rounded-full drop-shadow-md bg-yellow-600 text-black text-3xl font-bold">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
